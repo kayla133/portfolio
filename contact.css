@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html {
+    background-color: #DCE2BD;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 1200px;
+}
+
+.intro h1{
+    text-align: center;
+    width: 100%;
+    font-family: "Maven Pro";
+    font-size: 35px;
+    color:#002645;
+}
+
+h2 {
+    font-family: "Maven Pro";
+    font-size: 35px;
+    color:#002645;
+}
+
+h3 {
+    font-family: Lato;
+    font-size: 20px;
+    color:#002645;
+}
+
+h4 {
+    font-family: Lato;
+    font-size: 15px;
+    color:#002645;
+}
+
+
+.intro {
+    text-align: center;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #002645;
+    font-family: "Maven Pro";
+    font-size: 20px;
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+main {
+    font-size: 30px;
+}
